@@ -1,0 +1,9 @@
+The corrected CSS code with proper spacing and units:
+
+```css
+.element {
+  width: calc(100% - 10px);
+}
+```
+
+This version ensures the calculation is performed correctly, providing the intended result.  Always ensure spaces are included around operators (+, -, *, /) and all values have units (px, em, rem, %, etc.) within `calc()` to avoid unexpected behavior.
