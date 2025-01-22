@@ -1,0 +1,22 @@
+The CSS property `calc()` is used to perform calculations. However, sometimes unexpected results occur due to incorrect usage or lack of proper spacing.  For example, the following code will result in an unexpected outcome:
+
+```css
+.element { width:calc(100%-10px); }
+```
+
+The correct usage would include spaces around the operators:
+
+```css
+.element { width: calc(100% - 10px); }
+```
+Another potential error is the missing unit in the calculation, this would result in an unexpected value. For example:
+
+```css
+.element { width: calc(100% - 10); }
+```
+
+The correct usage would include the 'px' unit after 10:
+
+```css
+.element { width: calc(100% - 10px); }
+```
